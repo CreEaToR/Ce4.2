@@ -27,27 +27,34 @@ public class Ce42 {
 			}while(x<=num);
 			
 			
+	int count = 0;
+	String star = "*";
+	String space = " ";
+    
+	while(count<5){
+		
+		if(count==0){
+		System.out.println("  "+star+"  ");
+		
+		}else if(count==1){
+			
+			System.out.println(" "+star+star+star);
+			
+		}else if(count==2){
+			System.out.println(star+star+star+star+star);
+			
+		}else if(count==3){
+			
+			System.out.println(" "+star+star+star);
+		}else if(count==4){
+			System.out.println("  "+star+"  ");
+			
+		}
+		
+		count++;
+	}
+	
 
-int j = 0;
-
-while(j<1){
-	
-	System.out.println("  *");
-
-	System.out.println(" ***");
-	System.out.println(" ");
-	System.out.println("*****");
-	System.out.println(" ");
-	System.out.println(" ***");
-	System.out.println(" ");
-	System.out.println("  *");
-	
-	j++;
-	
-	
-	
-}
-	
 	}
 	
 		
